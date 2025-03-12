@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Minishop from './components/Minishop'
 import About from './components/About'
 import Notfound from './components/Notfound'
+import ProductDetail from './components/ProductDetail'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<Minishop/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/productdetail/:id" element={<ProductDetail/>}/>
         <Route path="*" element={<Notfound/>}/>
       </Routes>
 
