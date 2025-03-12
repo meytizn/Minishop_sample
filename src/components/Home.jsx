@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div className='mx-5 my-5'>Home component is empty  </div>
   )
 }
